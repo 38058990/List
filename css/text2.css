@@ -42,7 +42,7 @@ td {
 
 .ent{
     width: 99%;
-    height: 40px;
+    height: auto;
 }
 .cla,.cap,.gra,.sta,.est,.set,.bra{
     width: 90px;
@@ -59,4 +59,8 @@ td {
 tbody tr.bak{
     background: #333;
     color: #fff;
+}
+.err{
+    color: red;
+    display: none;
 }
